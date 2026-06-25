@@ -3,7 +3,7 @@ import React from 'react'
 function TaskList() {
   return (
     <div id='tasklist' className='h-[55%] flex items-center justify-start gap-5 w-full flex-nowrap overflow-x-auto py-5 rounded-xl mt-10'>
-        <div className='flex-shrink-0 h-full w-75 bg-slate-400 p-5 rounded-xl'>
+        <div className='flex-shrink-0 h-full w-75 bg-zinc-700 p-5 rounded-xl'>
             <div className='flex justify-between  items-center'>
               <h3 className='bg-red-500 text-sm px-3 py-1 rounded'>High</h3>
               <h4 className='text-sm'>20 June 2026</h4>
