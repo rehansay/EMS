@@ -40,7 +40,7 @@ const Login=() => {
 
                 }}
                 required
-                 className='text-black outline-none bg-transparent border-2 border-emerald-600 text-xl rounded-full py-4 px-5 placeholder: text-white' type="password" placeholder='Enter your password'/>
+                 className='text-black outline-none bg-transparent border-2 border-emerald-600 text-xl rounded-full py-4 px-5 mt-2 placeholder: text-white' type="password" placeholder='Enter your password'/>
                 <button className='text-white border-none outline-none  bg-emerald-600 text-xl  py-3 px-5 rounded-full  mt-3 placeholder: text-white' >Log in</button>
             </form>
 
