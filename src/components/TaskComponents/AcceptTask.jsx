@@ -4,14 +4,13 @@ const AcceptTask = ({data}) => {
   return (
         <div className='flex-shrink-0 h-full w-75 bg-zinc-700 p-5 rounded-xl'>
             <div className='flex justify-between  items-center'>
-              <h3 className='bg-red-500 text-sm px-3 py-1 rounded'>High</h3>
-              <h4 className='text-sm'>20 June 2026</h4>
+              <h3 className='bg-red-500 text-sm px-3 py-1 rounded'>{data.category}</h3>
+              <h4 className='text-sm'>{data.taskDate}</h4>
             </div>
 
-            <h2 className='mt-5 text-2xl font-semibold'>Make a repository</h2>
+            <h2 className='mt-5 text-2xl font-semibold'>{data.taskTitle}</h2>
             <p className='text-sm mt-2'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus porro tempore earum, eveniet enim odit maiores vero unde rem quia? Eos perferendis nihil natus inventore facere architecto tempora culpa consequuntur?
-            </p>
+              {data.taskDescription}            </p>
             <div className='flex justify-between mt-4'>
                 <button className='bg-green-500 rounded font-medium py-1 px-2 text-xs'>Mark as Completed</button>
                 <button className='bg-red-500 rounded font-medium py-1 px-2 text-xs'>Mark as Failed</button>
